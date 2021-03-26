@@ -19,6 +19,7 @@ function createGrid(){
 }
 
 
+
 let createBtn = document.querySelector(".create");
 createBtn.addEventListener("click", function (){
     while(gridContainer.firstChild){
