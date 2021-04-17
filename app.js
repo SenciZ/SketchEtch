@@ -4,6 +4,7 @@ let gridSize;
 
 createGrid();
 
+// Creates grid
 function createGrid(){
     gridSize = Math.pow(prompt("Enter number between 4 and 64 for desired grid size"), 2);
     for(let i = 0; i < gridSize; i++){
